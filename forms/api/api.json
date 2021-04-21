@@ -34,7 +34,7 @@
         "forms",
         "api",
         "Elements",
-        "Button1.json"
+        "btnReturnConfirmation.json"
       ]
     },
     {
@@ -43,7 +43,7 @@
         "forms",
         "api",
         "Elements",
-        "Label2.json"
+        "lblAdvice.json"
       ]
     },
     {

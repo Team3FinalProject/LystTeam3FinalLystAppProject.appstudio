@@ -1,15 +1,3 @@
-/*
-query = `SELECT reipe name from recipe WHERE recipe = '${s}'`
-query = `SELECT reipe name from recipe WHERE recipe = '${s}'`
-
-btnAddAnotherRecipe.onclick = function() {
-  ChangeForm(recipeSelection)
-}
-btnMoveCheckout.onclick = function() {
-  ChangeForm(checkout)
-}
-*/
-
 drpSelection.onclick=function(s){
   if (typeof(s) == "object")
     return 

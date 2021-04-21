@@ -45,6 +45,15 @@
         "Elements",
         "Image2.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "walmart",
+        "Elements",
+        "btnWalmartReturn.json"
+      ]
     }
   ],
   "class": "",

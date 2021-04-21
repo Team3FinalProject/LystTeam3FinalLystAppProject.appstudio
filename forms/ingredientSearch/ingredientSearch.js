@@ -55,7 +55,7 @@ function callAPI(URL) {
 }
 
 // 3. *** add a new button onclick event and put the callAPI code into it ***
-btnClickMe.onclick=function(){
+btnClickMe2.onclick=function(){
     // call the code that will make the API call, then process what comes back
     callAPI(requestURL)
 }

@@ -13,7 +13,7 @@ function onXHRLoad() {
     }
     
     // 2. *** put your textarea control name here ****
-    Textarea1.value = message
+    Textarea11.value = message
     
     // if want to add to database call a function here that does that
     // addToDatabase()

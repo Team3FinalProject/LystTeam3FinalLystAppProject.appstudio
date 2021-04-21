@@ -117,5 +117,5 @@ btnAddIngredient.onclick=function(){
 }
 
 btnAdvice.onclick=function(){
-  ChangeForm(advice)
+  ChangeForm(api)
 }

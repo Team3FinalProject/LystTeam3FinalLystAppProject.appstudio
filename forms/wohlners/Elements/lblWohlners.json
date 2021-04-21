@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4",
-  "appearance": "primary",
+  "appearance": "success",
   "backgroundColor": "",
   "borderRadius": "0",
   "bottom": "auto",
@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblWohlners",
   "labelStyle": "text",
-  "left": 98,
+  "left": 91,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 63,
+  "top": 117,
   "value": "Select a LYST specific to Wohlners below",
   "width": "auto"
 }

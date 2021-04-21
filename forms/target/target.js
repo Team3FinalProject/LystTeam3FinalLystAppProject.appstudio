@@ -1,6 +1,6 @@
 target.onshow=function(s){
 drpTarget.clear()
-query = "SELECT * FROM lyst l INNER JOIN `target` t on l.lyst_id = t.lyst_id ORDER BY `lyst_name`"
+query = "SELECT * FROM target_ingredients x INNER JOIN `lyst_target` y ON x.target_id = y.target_id INNER JOIN `lyst` l ON y.lyst_id = l.lyst_id INNER JOIN `target` t ON x.target_id = t.target_id INNER JOIN `ingredients` i ON x.ingredient_id = i.ingredient_id"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + "375groupa3" + "&query=" + query)
   if (req.status == 200) {
     console.log(`req.responseText is a JSON string that looks like this: ${req.responseText}`)
@@ -12,7 +12,7 @@ query = "SELECT * FROM lyst l INNER JOIN `target` t on l.lyst_id = t.lyst_id ORD
   else {
   let message = ""
   for (i = 0; i < results.length; i++)
-    drpTarget.addItem(message + results[i][1] + "\n")
+    drpTarget.addItem(message + results[i][5] + "\n")
     }
   } else 
       lblTarget.value = "Error Code:" + req.status

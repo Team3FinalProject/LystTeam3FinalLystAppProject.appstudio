@@ -119,3 +119,7 @@ btnAddIngredient.onclick=function(){
 btnAdvice.onclick=function(){
   ChangeForm(api)
 }
+
+btnGoBackHome.onclick=function(){
+  ChangeForm(afterLogin)
+}

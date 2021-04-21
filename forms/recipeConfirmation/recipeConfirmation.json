@@ -63,6 +63,15 @@
         "Elements",
         "btnAdvice.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeConfirmation",
+        "Elements",
+        "btnGoBackHome.json"
+      ]
     }
   ],
   "class": "",

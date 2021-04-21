@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnWally",
-  "left": 80,
+  "left": 85,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 222,
+  "top": 214,
   "value": "Walmart",
   "width": 64
 }

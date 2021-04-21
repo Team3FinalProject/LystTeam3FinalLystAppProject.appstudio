@@ -21,3 +21,7 @@ query = "SELECT * FROM target_ingredients x INNER JOIN `lyst_target` y ON x.targ
 btnTargetNext.onclick=function(){
   ChangeForm(recipeConfirmation)
 }
+
+btnTargetReturn.onclick=function(){
+  ChangeForm(map)
+}

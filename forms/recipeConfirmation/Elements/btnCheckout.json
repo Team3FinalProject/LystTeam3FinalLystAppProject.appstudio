@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnCheckout",
-  "left": 5,
+  "left": 196,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 372,
+  "top": 326,
   "value": "Checkout",
   "width": "auto"
 }

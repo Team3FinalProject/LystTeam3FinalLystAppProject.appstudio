@@ -127,3 +127,7 @@ btnAddIngredient.onclick=function(){
   let addIngredient = inptAddition.value
   rdoConfirmation.addItem(addIngredient)
 }
+
+btnAdvice.onclick=function(){
+  ChangeForm(advice)
+}

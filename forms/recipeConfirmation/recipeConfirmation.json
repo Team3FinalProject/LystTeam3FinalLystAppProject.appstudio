@@ -52,7 +52,7 @@
         "forms",
         "recipeConfirmation",
         "Elements",
-        "btnModify.json"
+        "inptAddition.json"
       ]
     },
     {
@@ -61,7 +61,7 @@
         "forms",
         "recipeConfirmation",
         "Elements",
-        "inptAddition.json"
+        "btnAdvice.json"
       ]
     }
   ],

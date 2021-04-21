@@ -14,10 +14,10 @@
   "fontSize": "",
   "fontStyle": "",
   "fontWeight": "",
-  "height": 417,
+  "height": 122,
   "hidden": "",
-  "id": "imgMap",
-  "left": 4,
+  "id": "Image5",
+  "left": 1,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -46,8 +46,8 @@
   "right": "auto",
   "script": "",
   "shape": "",
-  "src": "omaha-ne-map.png",
+  "src": "correct.png",
   "style": "",
-  "top": -93,
-  "width": 460
+  "top": 4,
+  "width": 132
 }

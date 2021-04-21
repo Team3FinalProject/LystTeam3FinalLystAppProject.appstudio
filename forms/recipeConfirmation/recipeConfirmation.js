@@ -1,15 +1,3 @@
-/*
-query = `SELECT reipe name from recipe WHERE recipe = '${s}'`
-query = `SELECT reipe name from recipe WHERE recipe = '${s}'`
-
-btnAddAnotherRecipe.onclick = function() {
-  ChangeForm(recipeSelection)
-}
-btnMoveCheckout.onclick = function() {
-  ChangeForm(checkout)
-}
-*/
-
 drpSelection.onclick=function(s){
   if (typeof(s) == "object")
     return 
@@ -65,7 +53,7 @@ drpWalmart.onclick=function(s){
     drpWalmart.value = s
     let ingredientsWalmart = drpWalmart.value 
   
-query = "SELECT * FROM walmart_ingredients x INNER JOIN `lyst_walmart` y ON x.walmart_id = y.walmart_id INNER JOIN `lyst` l ON y.lyst_id = l.lyst_id INNER JOIN `walmart` t ON x.walmart_id = t.walmart_id INNER JOIN `ingredients` i ON x.ingredient_id = i.ingredient_id = '" + ingredientsWalmart + "'"
+query = "SELECT * FROM Walmart_ingredients x INNER JOIN `lyst_Walmart` y ON x.walmart_id = y.walmart_id INNER JOIN `lyst` l ON y.lyst_id = l.lyst_id INNER JOIN `walmart` t ON x.walmart_id = t.walmart_id INNER JOIN `ingredients` i ON x.ingredient_id = i.ingredient_id WHERE lyst_name = '" + ingredientsWalmart + "'"
    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + "375groupa3" + "&query=" + query)
   if (req.status == 200) { 
     console.log(`req.responseText is a JSON string that looks like this: ${req.responseText}`)
@@ -81,6 +69,7 @@ query = "SELECT * FROM walmart_ingredients x INNER JOIN `lyst_walmart` y ON x.wa
   } else 
     lblTest.value = "Error Code:" + req.status
 }
+
 
 drpWohlners.onclick=function(s){
   if (typeof(s) == "object")
@@ -108,3 +97,29 @@ query = "SELECT * FROM lyst_ingredients t INNER JOIN `lyst` l ON t.lyst_id = l.l
  
 
 
+btnAddIngredient.onclick=function(){
+    let addLyst = inptAdditionLYST.value
+    let addIngredient = inptAddition.value
+    let query = "INSERT INTO lyst_ingredients (`lyst_id`,`ingredient_id`) VALUES ('" + addLYST + "', '" + addIngredient  + "')"
+    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + "375groupa3" + "&query=" + query)
+    if (req.status == 200) { 
+        if (req.responseText == 500)    
+            lblMessage3.textContent = "You have successfully added the pet!"
+        else
+            lblMessage3.textContent = "There was a problem with adding the pet to the database."
+    } else 
+        lblMessage3.textContent = "Error: " + req.status
+}
+
+btnAddIngredient.onclick=function(){
+  let addIngredient = inptAddition.value
+  rdoConfirmation.addItem(addIngredient)
+}
+
+btnAdvice.onclick=function(){
+  ChangeForm(api)
+}
+
+btnGoBackHome.onclick=function(){
+  ChangeForm(afterLogin)
+}

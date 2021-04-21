@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#FA8072",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -52,7 +52,25 @@
         "forms",
         "recipeConfirmation",
         "Elements",
-        "btnModify.json"
+        "inptAddition.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeConfirmation",
+        "Elements",
+        "btnAdvice.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeConfirmation",
+        "Elements",
+        "btnGoBackHome.json"
       ]
     }
   ],

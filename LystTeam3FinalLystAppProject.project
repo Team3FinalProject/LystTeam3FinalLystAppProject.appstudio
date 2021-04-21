@@ -106,6 +106,14 @@
             "ingredientSearch",
             "ingredientSearch.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "api",
+            "api.json"
+          ]
         }
       ],
       "configxml": null,
@@ -127,7 +135,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "map",
+      "firstform": "Home",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",

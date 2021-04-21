@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "#87CEFA",
+  "background": "#FA8072",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -14,45 +14,45 @@
       "!type": "External",
       "file": [
         "forms",
-        "walmart",
+        "api",
         "Elements",
-        "drpWalmart.json"
+        "btnClickMe1.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "walmart",
+        "api",
         "Elements",
-        "btnWalmartNext.json"
+        "Textarea11.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "walmart",
+        "api",
         "Elements",
-        "lblWalmart.json"
+        "btnReturnConfirmation.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "walmart",
+        "api",
         "Elements",
-        "Image2.json"
+        "lblAdvice.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "walmart",
+        "api",
         "Elements",
-        "btnWalmartReturn.json"
+        "btnGoHome.json"
       ]
     }
   ],
@@ -62,7 +62,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "walmart",
+  "id": "api",
   "language": "JavaScript",
   "left": "0",
   "locked": false,

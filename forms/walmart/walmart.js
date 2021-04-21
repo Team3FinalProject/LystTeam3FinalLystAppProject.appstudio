@@ -20,3 +20,7 @@ query = "SELECT * FROM lyst l INNER JOIN `walmart` t on l.lyst_id = t.lyst_id OR
 btnWalmartNext.onclick=function(){
   ChangeForm(recipeConfirmation)
 }
+
+btnWalmartReturn.onclick=function(){
+  ChangeForm(map)
+}

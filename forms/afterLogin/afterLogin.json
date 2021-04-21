@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "#FFE4E1",
+  "background": "#FA8072",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -16,16 +16,7 @@
         "forms",
         "afterLogin",
         "Elements",
-        "btnTopLists.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "afterLogin",
-        "Elements",
-        "btnMyLysts.json"
+        "btnFindLysts.json"
       ]
     },
     {
@@ -43,43 +34,25 @@
         "forms",
         "afterLogin",
         "Elements",
-        "btnLystFriends.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "afterLogin",
-        "Elements",
-        "btnFoodExpiring.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "afterLogin",
-        "Elements",
-        "btnSettings.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "afterLogin",
-        "Elements",
-        "btnFindLysts.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "afterLogin",
-        "Elements",
         "btnAddLysts.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "afterLogin",
+        "Elements",
+        "Image6.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "afterLogin",
+        "Elements",
+        "Label1.json"
       ]
     }
   ],

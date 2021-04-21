@@ -66,3 +66,6 @@ SELECT `ingredient_name` FROM ingredients i INNER JOIN `lyst` l ON i.ingredient_
 */
 
 
+btnReturnThy.onclick=function(){
+  ChangeForm(afterLogin)
+}

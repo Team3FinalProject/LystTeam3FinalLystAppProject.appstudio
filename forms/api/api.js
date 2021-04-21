@@ -1,5 +1,5 @@
 // 1. *** use your own url copied from Postman ****
-let requestURL = "https://api.spoonacular.com/recipes/complexSearch?query=pasta&instructionsRequired=True&addRecipeInformation=True&apiKey=9756a88fa0a145fb93499bc42cf60e7b"
+/*let requestURL = "https://api.spoonacular.com/recipes/complexSearch?query=pasta&instructionsRequired=True&addRecipeInformation=True&apiKey=9756a88fa0a145fb93499bc42cf60e7b"*/
 
 function onXHRLoad() {
     let message = ""
@@ -24,10 +24,10 @@ function callAPI(URL) {
     
     // if you need cors (you'll get a cors error if you don't have it and you need it)
     // use this code to add the cors code to your url 
-    /*xhttp.open('GET', 'https://cors.bridged.cc/' + requestURL)*/
+    //xhttp.open('GET', 'https://cors.bridged.cc/' + requestURL)
     
     // if you DON'T need cors use this code:
-    //xhttp.open('GET',URL)
+    xhttp.open('GET',URL)
     
     /* Headers */
     // if you need to set the returned data type, use this line of code: 
@@ -58,4 +58,14 @@ function callAPI(URL) {
 btnClickMe.onclick=function(){
     // call the code that will make the API call, then process what comes back
     callAPI(requestURL)
+}
+
+//console.log(results.results[0].glutenFree)
+
+btnReturnConfirmation.onclick=function(){
+  ChangeForm(recipeConfirmation)
+}
+
+btnGoHome.onclick=function(){
+  ChangeForm(afterLogin)
 }

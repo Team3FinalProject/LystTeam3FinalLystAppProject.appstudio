@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblIngredientTitle",
   "labelStyle": "text",
-  "left": 0,
+  "left": 77,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 23,
-  "value": "Click here to begin -->",
+  "top": 25,
+  "value": "LYST Confirmation",
   "width": "auto"
 }

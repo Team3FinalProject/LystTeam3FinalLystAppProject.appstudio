@@ -20,3 +20,7 @@ query = "SELECT * FROM lyst l INNER JOIN `wohlners` t on l.lyst_id = t.lyst_id O
 btnWohlnersNext.onclick=function(){
   ChangeForm(recipeConfirmation)
 }
+
+btnWohlnersReturn.onclick=function(){
+  ChangeForm(afterLogin)
+}

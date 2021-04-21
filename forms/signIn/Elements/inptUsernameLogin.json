@@ -5,7 +5,7 @@
   "autocapitalize": "",
   "autocomplete": "",
   "autocorrect": "",
-  "backgroundColor": "",
+  "backgroundColor": "#AFEEEE",
   "badge": "",
   "badgeAppearance": " badge-info",
   "bottom": "auto",
@@ -23,7 +23,7 @@
   "fontStyle": "",
   "fontWeight": "",
   "footer": "",
-  "header": "Username",
+  "header": "",
   "headerCols": 2,
   "height": "auto",
   "hidden": "",
@@ -32,7 +32,7 @@
   "id": "inptUsernameLogin",
   "inputType": "text",
   "inputmode": "",
-  "left": 6,
+  "left": 4,
   "leftText": "",
   "mAll": "",
   "mBottom": "",
@@ -82,9 +82,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 117,
+  "top": 171,
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": "auto"
+  "width": 311
 }

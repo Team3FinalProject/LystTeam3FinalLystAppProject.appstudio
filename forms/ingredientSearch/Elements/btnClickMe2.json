@@ -28,8 +28,8 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "btnClickMe1",
-  "left": 112,
+  "id": "btnClickMe2",
+  "left": 92,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 198,
-  "value": "Submit",
+  "top": 347,
+  "value": "Click here to view!",
   "width": "auto"
 }

@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnClickMe",
-  "left": 92,
+  "left": 112,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 347,
-  "value": "Click here to view!",
+  "top": 198,
+  "value": "Submit",
   "width": "auto"
 }

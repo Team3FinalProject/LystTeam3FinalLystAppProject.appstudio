@@ -10,3 +10,7 @@ btnWally.onclick=function(){
 btnWohlners.onclick=function(){
   ChangeForm(wohlners)
 }
+
+btnHomebound.onclick=function(){
+  ChangeForm(afterLogin)
+}

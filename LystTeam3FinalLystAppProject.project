@@ -98,6 +98,14 @@
             "wohlners",
             "wohlners.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "ingredientSearch",
+            "ingredientSearch.json"
+          ]
         }
       ],
       "configxml": null,
@@ -119,7 +127,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "walmart",
+      "firstform": "ingredientSearch",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",

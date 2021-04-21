@@ -27,6 +27,33 @@
         "Elements",
         "Textarea11.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "api",
+        "Elements",
+        "Button1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "api",
+        "Elements",
+        "Label2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "api",
+        "Elements",
+        "btnGoHome.json"
+      ]
     }
   ],
   "class": "",

@@ -61,3 +61,11 @@ btnClickMe.onclick=function(){
 }
 
 //console.log(results.results[0].glutenFree)
+
+btnReturnConfirmation.onclick=function(){
+  ChangeForm(recipeConfirmation)
+}
+
+btnGoHome.onclick=function(){
+  ChangeForm(afterLogin)
+}

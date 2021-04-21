@@ -1,6 +1,6 @@
 {
   "!type": "Image_bs4",
-  "backgroundColor": "",
+  "backgroundColor": "#F8F8FF",
   "bottom": "auto",
   "cached_js": "",
   "cached_js_script_hash": "d41d8cd98f00b204e9800998ecf8427e",
@@ -17,7 +17,7 @@
   "height": 75,
   "hidden": "",
   "id": "Image1",
-  "left": 0,
+  "left": 115,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -46,8 +46,8 @@
   "right": "auto",
   "script": "",
   "shape": "",
-  "src": "nsb/images/192.png",
+  "src": "targeto.png",
   "style": "",
-  "top": 1,
+  "top": 43,
   "width": 77
 }

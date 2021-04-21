@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4",
-  "appearance": "primary",
+  "appearance": "white",
   "backgroundColor": "",
   "borderRadius": "0",
   "bottom": "auto",
@@ -19,7 +19,7 @@
   "hidden": "",
   "id": "lblTarget",
   "labelStyle": "text",
-  "left": 70,
+  "left": 50,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 59,
+  "top": 129,
   "value": "Select a LYST specific to Target below",
   "width": "auto"
 }

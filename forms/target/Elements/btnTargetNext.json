@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnTargetNext",
-  "left": 63,
+  "left": 73,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 365,
+  "top": 355,
   "value": "Proceed to confirmation",
   "width": "auto"
 }

@@ -35,7 +35,7 @@
   "mLeft": "",
   "mRight": "",
   "mTop": "",
-  "onclick": "Button2.onclick()",
+  "onclick": "btnModify.onclick()",
   "onmousedown": "",
   "onmousemove": "",
   "onmouseout": "",

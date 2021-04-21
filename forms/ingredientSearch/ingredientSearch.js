@@ -8,8 +8,8 @@ function onXHRLoad() {
     let apiData = JSON.parse(this.responseText)
     
     for (i = 0; i <= apiData.results.length - 1; i++) {
-        console.log(`${apiData.results[i].name}`)
-        message = message + apiData.results[i].name + "\n"
+        console.log(`${apiData.results[i].title}`)
+        message = message + apiData.results[i].title + "\n"
     }
     
     // 2. *** put your textarea control name here ****
@@ -24,7 +24,7 @@ function callAPI(URL) {
     
     // if you need cors (you'll get a cors error if you don't have it and you need it)
     // use this code to add the cors code to your url 
-    xhttp.open('GET', 'https://cors.bridged.cc/' + requestURL)
+    /*xhttp.open('GET', 'https://cors.bridged.cc/' + requestURL)*/
     
     // if you DON'T need cors use this code:
     //xhttp.open('GET',URL)

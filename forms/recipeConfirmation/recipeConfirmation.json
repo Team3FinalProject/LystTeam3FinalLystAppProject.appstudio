@@ -54,6 +54,15 @@
         "Elements",
         "btnModify.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeConfirmation",
+        "Elements",
+        "inptAddition.json"
+      ]
     }
   ],
   "class": "",

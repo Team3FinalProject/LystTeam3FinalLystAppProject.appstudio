@@ -1,7 +1,5 @@
-/*
-
 // 1. *** use your own url copied from Postman ****
-let requestURL = "https://api.spoonacular.com/recipes/complexSearch?query=pasta&instructionsRequired=True&addRecipeInformation=True&apiKey=9756a88fa0a145fb93499bc42cf60e7b"
+/*let requestURL = "https://api.spoonacular.com/recipes/complexSearch?query=pasta&instructionsRequired=True&addRecipeInformation=True&apiKey=9756a88fa0a145fb93499bc42cf60e7b"*/
 
 function onXHRLoad() {
     let message = ""
@@ -49,7 +47,7 @@ function callAPI(URL) {
     xhttp.setRequestHeader('location','41.276900,-95.942310')
     xhttp.setRequestHeader('rankby','distance')
     xhttp.setRequestHeader('type','restaurant')
-    
+    */
 
     // make the API request
     xhttp.addEventListener('load', onXHRLoad)
@@ -63,4 +61,3 @@ btnClickMe.onclick=function(){
 }
 
 //console.log(results.results[0].glutenFree)
-*/

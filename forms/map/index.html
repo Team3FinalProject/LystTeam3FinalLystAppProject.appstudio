@@ -4,13 +4,12 @@
     <title>LYST</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style type="text/css">
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
+      /* Set map style to full view page */
       #map {
         height: 100%;
       }
 
-      /* Optional: Makes the sample page fill the window. */
+      /* Make the view page fill the window. */
       html,
       body {
         height: 100%;
@@ -21,7 +20,7 @@
     <script>
     
       function initMap() {
-        // Styles a map in night mode.
+        // Style the map in night mode, centered on Omaha.
         const map = new google.maps.Map(document.getElementById("map"), {
           center: { lat: 41.2565, lng: -95.9345 },
           zoom: 13,
@@ -113,42 +112,23 @@
           ],
         });
 
-        /*
-        // ADD MARKERS ONE AT A TIME
-        // Add marker for Wohlner's Neighborhood Grocery & Deli
-        var marker = new google.maps.Marker({
-            position: { lat: 41.259521, lng: -95.961411},
-            map:map,
-            // icon: variable, where variable = 'https://...'
-        });
-
-        var infoWindow = new google.maps.InfoWindow({
-            content: "<h2>Wohlner's Neighborhood Grocery & Deli</h2>"
-        });
-
-        marker.addListener('click', function(){
-            infoWindow.open(map,marker);
-        });
-        */
-
-        // ADD MARKERS BY CALLING FUNCTION
-       
+        // Add markers for grocery stores
         addMarker({ // Wohlner's
             coords: { lat: 41.259521, lng: -95.961411 },
             name: "Wohlner's Neighborhood Grocery & Deli"
-
         });
+
         addMarker({ // Walmart
             coords: { lat: 41.256800, lng: -95.980840 },
             name: "Walmart Neighborhood Market"
-
         });
+
         addMarker({ // HyVee
             coords: { lat: 41.242390, lng: -95.994209 },
             name: "HyVee"
-
         });
 
+        // function called to place markers with info windows
         function addMarker(props){
             // define marker
             var marker = new google.maps.Marker({
@@ -180,33 +160,33 @@
          */
         const center = { lat: 41.2565, lng: -95.9345 }
         function CenterControl(controlDiv, map) {
-        // Set CSS for the control border.
-        const controlUI = document.createElement("div");
-        controlUI.style.backgroundColor = "#fff";
-        controlUI.style.border = "2px solid #fff";
-        controlUI.style.borderRadius = "3px";
-        controlUI.style.boxShadow = "0 2px 6px rgba(0,0,0,.3)";
-        controlUI.style.cursor = "pointer";
-        controlUI.style.marginTop = "8px";
-        controlUI.style.marginBottom = "22px";
-        controlUI.style.textAlign = "center";
-        controlUI.title = "Click to recenter the map";
-        controlDiv.appendChild(controlUI);
-        // Set CSS for the control interior.
-        const controlText = document.createElement("div");
-        controlText.style.color = "rgb(25,25,25)";
-        controlText.style.fontFamily = "Roboto,Arial,sans-serif";
-        controlText.style.fontSize = "16px";
-        controlText.style.lineHeight = "38px";
-        controlText.style.paddingLeft = "5px";
-        controlText.style.paddingRight = "5px";
-        controlText.innerHTML = "Center Map";
-        controlUI.appendChild(controlText);
-        // Setup the click event listeners: simply set the map to center.
-        controlUI.addEventListener("click", () => {
-            map.setCenter(center);
-            //alert('Change Form')
-        });
+          // Set CSS for the control border.
+          const controlUI = document.createElement("div");
+          controlUI.style.backgroundColor = "#fff";
+          controlUI.style.border = "2px solid #fff";
+          controlUI.style.borderRadius = "3px";
+          controlUI.style.boxShadow = "0 2px 6px rgba(0,0,0,.3)";
+          controlUI.style.cursor = "pointer";
+          controlUI.style.marginTop = "8px";
+          controlUI.style.marginBottom = "22px";
+          controlUI.style.textAlign = "center";
+          controlUI.title = "Click to recenter the map";
+          controlDiv.appendChild(controlUI);
+          // Set CSS for the control interior.
+          const controlText = document.createElement("div");
+          controlText.style.color = "rgb(25,25,25)";
+          controlText.style.fontFamily = "Roboto,Arial,sans-serif";
+          controlText.style.fontSize = "16px";
+          controlText.style.lineHeight = "38px";
+          controlText.style.paddingLeft = "5px";
+          controlText.style.paddingRight = "5px";
+          controlText.innerHTML = "Center Map";
+          controlUI.appendChild(controlText);
+          // Setup the click event listeners: simply set the map to center.
+          controlUI.addEventListener("click", () => {
+              map.setCenter(center);
+              //alert('Change Form')
+          });
         }
         // Create the DIV to hold the control and call the CenterControl()
         // constructor passing in this DIV.

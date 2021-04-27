@@ -12,7 +12,7 @@ query = "SELECT * FROM target_ingredients x INNER JOIN `lyst_target` y ON x.targ
   else {
   let message = ""
   for (i = 0; i < results.length; i++)
-    drpTarget.addItem(message + results[i][5] + "\n")
+    drpTarget.addItem(message + results[i][6] + "\n")
     }
   } else 
       lblTarget.value = "Error Code:" + req.status

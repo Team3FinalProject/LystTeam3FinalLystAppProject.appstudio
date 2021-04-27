@@ -29,7 +29,7 @@ drpTarget.onclick=function(s){
     drpTarget.value = s
     let ingredientsTarget = drpTarget.value 
   
-query = "SELECT * FROM target_ingredients x INNER JOIN `lyst_target` y ON x.target_id = y.target_id INNER JOIN `lyst` l ON y.lyst_id = l.lyst_id INNER JOIN `target` t ON x.target_id = t.target_id INNER JOIN `ingredients` i ON x.ingredient_id = i.ingredient_id WHERE lyst_name = '" + ingredientsTarget + "'"
+query = "SELECT * FROM target_ingredients x INNER JOIN `lyst_target` y ON x.target_id = y.target_id INNER JOIN `lyst` l ON y.lyst_id = l.lyst_id WHERE lyst_name = '" + ingredientsTarget + "'"
    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + "375groupa3" + "&query=" + query)
   if (req.status == 200) { 
     console.log(`req.responseText is a JSON string that looks like this: ${req.responseText}`)
@@ -40,7 +40,7 @@ query = "SELECT * FROM target_ingredients x INNER JOIN `lyst_target` y ON x.targ
   else {
   let message = ""
   for (i = 0; i < results.length; i++)
-    rdoConfirmation.addItem(message + results[i][14] + "\n")
+    rdoConfirmation.addItem(message + results[i][6] + "\n")
     }
   } else 
     lblTest.value = "Error Code:" + req.status
@@ -53,7 +53,7 @@ drpWalmart.onclick=function(s){
     drpWalmart.value = s
     let ingredientsWalmart = drpWalmart.value 
   
-query = "SELECT * FROM Walmart_ingredients x INNER JOIN `lyst_Walmart` y ON x.walmart_id = y.walmart_id INNER JOIN `lyst` l ON y.lyst_id = l.lyst_id INNER JOIN `walmart` t ON x.walmart_id = t.walmart_id INNER JOIN `ingredients` i ON x.ingredient_id = i.ingredient_id WHERE lyst_name = '" + ingredientsWalmart + "'"
+query = "SELECT * FROM walmart_ingredients x INNER JOIN `lyst_walmart` y ON x.walmart_id = y.walmart_id INNER JOIN `lyst` l ON y.lyst_id = l.lyst_id INNER JOIN `walmart` t ON x.walmart_id = t.walmart_id INNER JOIN `ingredients` i ON x.ingredient_id = i.ingredient_id WHERE lyst_name = '" + ingredientsWalmart + "'"
    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + "375groupa3" + "&query=" + query)
   if (req.status == 200) { 
     console.log(`req.responseText is a JSON string that looks like this: ${req.responseText}`)

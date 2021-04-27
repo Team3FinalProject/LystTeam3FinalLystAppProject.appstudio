@@ -1,6 +1,6 @@
 walmart.onshow=function(s){
 drpWalmart.clear()
-query = "SELECT * FROM lyst l INNER JOIN `walmart` t on l.lyst_id = t.lyst_id ORDER BY `lyst_name`"
+query = "SELECT * FROM walmart_ingredients x INNER JOIN `lyst_walmart` y ON x.walmart_id = y.walmart_id INNER JOIN `lyst` l ON y.lyst_id = l.lyst_id INNER JOIN `walmart` t ON x.walmart_id = t.walmart_id INNER JOIN `ingredients` i ON x.ingredient_id = i.ingredient_id"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + "375groupa3" + "&query=" + query)
   if (req.status == 200) {
     console.log(`req.responseText is a JSON string that looks like this: ${req.responseText}`)
@@ -11,7 +11,7 @@ query = "SELECT * FROM lyst l INNER JOIN `walmart` t on l.lyst_id = t.lyst_id OR
   else {
   let message = ""
   for (i = 0; i < results.length; i++)
-    drpWalmart.addItem(message + results[i][1] + "\n")
+    drpWalmart.addItem(message + results[i][5] + "\n")
     }
   } else 
       lblWalmart.value = "Error Code:" + req.status

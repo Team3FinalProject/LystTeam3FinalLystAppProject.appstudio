@@ -14,81 +14,108 @@
       "!type": "External",
       "file": [
         "forms",
-        "recipeConfirmation",
+        "calculator",
         "Elements",
-        "rdoConfirmation.json"
+        "btnBegin.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "recipeConfirmation",
+        "calculator",
         "Elements",
-        "btnAddIngredient.json"
+        "btnClear.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "recipeConfirmation",
+        "calculator",
         "Elements",
-        "btnCheckout.json"
+        "drpCalculator.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "recipeConfirmation",
+        "calculator",
         "Elements",
-        "lblIngredientTitle.json"
+        "lblAmount.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "recipeConfirmation",
+        "calculator",
         "Elements",
-        "inptAddition.json"
+        "rdoCalculator.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "recipeConfirmation",
+        "calculator",
         "Elements",
-        "btnAdvice.json"
+        "rdoCalculator2.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "recipeConfirmation",
+        "calculator",
         "Elements",
-        "btnGoBackHome.json"
+        "inptValueOne.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "recipeConfirmation",
+        "calculator",
         "Elements",
-        "Label2.json"
+        "inptValueTwo.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "recipeConfirmation",
+        "calculator",
         "Elements",
-        "btnClearThat.json"
+        "inptValueThree.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "Label3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "btnHomeAwayFromHome.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "btnHomeOnThaRange.json"
       ]
     }
   ],
@@ -98,7 +125,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "recipeConfirmation",
+  "id": "calculator",
   "language": "JavaScript",
   "left": "0",
   "locked": false,

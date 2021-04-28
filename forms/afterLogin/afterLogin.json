@@ -43,15 +43,6 @@
         "forms",
         "afterLogin",
         "Elements",
-        "Image6.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "afterLogin",
-        "Elements",
         "Label1.json"
       ]
     }

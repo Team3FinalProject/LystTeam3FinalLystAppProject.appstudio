@@ -1,6 +1,6 @@
 wohlners.onshow=function(s){
 drpWohlners.clear()
-query = "SELECT * FROM lyst l INNER JOIN `wohlners` t on l.lyst_id = t.lyst_id ORDER BY `lyst_name`"
+query = "SELECT * FROM wohlners_ingredients x INNER JOIN `lyst_wohlners` y ON x.wohlners_id = y.wohlners_id INNER JOIN `lyst` l ON y.lyst_id = l.lyst_id INNER JOIN `wohlners` t ON x.wohlners_id = t.wohlners_id INNER JOIN `ingredients` i ON x.ingredient_id = i.ingredient_id"
   req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + "375groupa3" + "&query=" + query)
   if (req.status == 200) {
     console.log(`req.responseText is a JSON string that looks like this: ${req.responseText}`)
@@ -11,7 +11,7 @@ query = "SELECT * FROM lyst l INNER JOIN `wohlners` t on l.lyst_id = t.lyst_id O
   else {
   let message = ""
   for (i = 0; i < results.length; i++)
-    drpWohlners.addItem(message + results[i][1] + "\n")
+    drpWohlners.addItem(message + results[i][6] + "\n")
     }
   } else 
       lblWohlners.value = "Error Code:" + req.status
@@ -22,5 +22,5 @@ btnWohlnersNext.onclick=function(){
 }
 
 btnWohlnersReturn.onclick=function(){
-  ChangeForm(afterLogin)
+  ChangeForm(map)
 }

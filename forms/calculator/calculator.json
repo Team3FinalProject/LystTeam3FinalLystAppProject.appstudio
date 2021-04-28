@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#FA8072",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -16,7 +16,7 @@
         "forms",
         "calculator",
         "Elements",
-        "Button1.json"
+        "btnBegin.json"
       ]
     },
     {
@@ -25,7 +25,25 @@
         "forms",
         "calculator",
         "Elements",
-        "Button2.json"
+        "btnClear.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "drpCalculator.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "lblAmount.json"
       ]
     },
     {
@@ -35,6 +53,42 @@
         "calculator",
         "Elements",
         "rdoCalculator.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "rdoCalculator2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "inptValueOne.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "inptValueTwo.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "Input1.json"
       ]
     }
   ],

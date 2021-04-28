@@ -104,7 +104,7 @@ btnAddIngredient.onclick=function(){
     req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + "375groupa3" + "&query=" + query)
     if (req.status == 200) { 
         if (req.responseText == 500)    
-            lblMessage3.textContent = "You have successfully added the pet!"
+            lblMessage3.textContent = "You have successfully added the ingredient!"
         else
             lblMessage3.textContent = "There was a problem with adding the pet to the database."
     } else 
@@ -122,4 +122,20 @@ btnAdvice.onclick=function(){
 
 btnGoBackHome.onclick=function(){
   ChangeForm(afterLogin)
+}
+
+btnCheckout.onclick=function(){
+  ChangeForm(calculator)
+}
+
+btnAddIngredient.onclick=function(){
+    let query = "INSERT INTO lyst_ingredients (`lyst_id`,`ingredient_id`) VALUES ('" + addLYST + "', '" + addIngredient  + "')"
+    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + "375groupa3" + "&query=" + query)
+    if (req.status == 200) { 
+        if (req.responseText == 500)    
+            lblMessage3.textContent = "You have successfully added the ingredient!"
+        else
+            lblMessage3.textContent = "There was a problem with adding the pet to the database."
+    } else 
+        lblMessage3.textContent = "Error: " + req.status
 }

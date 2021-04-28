@@ -28,8 +28,8 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "Button2",
-  "left": 139,
+  "id": "btnClear",
+  "left": 119,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 313,
-  "value": "Button",
+  "top": 412,
+  "value": "Clear",
   "width": "auto"
 }

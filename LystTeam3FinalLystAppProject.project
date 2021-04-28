@@ -122,6 +122,14 @@
             "calculator",
             "calculator.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Form1",
+            "Form1.json"
+          ]
         }
       ],
       "configxml": null,
@@ -143,7 +151,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "Home",
+      "firstform": "calculator",
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",

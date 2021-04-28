@@ -81,6 +81,15 @@
         "Elements",
         "Label2.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeConfirmation",
+        "Elements",
+        "btnClearThat.json"
+      ]
     }
   ],
   "class": "",

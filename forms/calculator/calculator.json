@@ -88,7 +88,34 @@
         "forms",
         "calculator",
         "Elements",
-        "Input1.json"
+        "inptValueThree.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "Label3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "btnHomeAwayFromHome.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "calculator",
+        "Elements",
+        "btnHomeOnThaRange.json"
       ]
     }
   ],

@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnBegin",
-  "left": 120,
+  "left": 136,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 366,
+  "top": 375,
   "value": "Sum",
   "width": "auto"
 }

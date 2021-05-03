@@ -51,3 +51,11 @@ Form1.onshow=function(){
 }
 
 
+
+btnCalculationAgain.onclick=function(){
+  ChangeForm(calculator)
+}
+
+btnMapAttack.onclick=function(){
+  ChangeForm(map)
+}

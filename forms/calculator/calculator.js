@@ -64,3 +64,7 @@ btnHomeAwayFromHome.onclick=function(){
 btnHomeOnThaRange.onclick=function(){
   ChangeForm(recipeConfirmation)
 }
+
+btnPayHere.onclick=function(){
+  ChangeForm(stripeAPI)
+}

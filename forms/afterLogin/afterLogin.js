@@ -4,7 +4,7 @@ btnFindLysts.onclick=function(){
 }
 
 btnStoresNearMe.onclick=function(){
-  ChangeForm(map)
+  ChangeForm(tempMap)
 }
 
 btnAddLysts.onclick=function(){

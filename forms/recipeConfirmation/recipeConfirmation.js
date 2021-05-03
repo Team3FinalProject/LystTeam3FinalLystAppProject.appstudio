@@ -117,7 +117,7 @@ btnAddIngredient.onclick=function(){
 }
 
 btnAdvice.onclick=function(){
-  ChangeForm(apiSearch)
+  ChangeForm(api)
 }
 
 btnGoBackHome.onclick=function(){

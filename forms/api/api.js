@@ -1,7 +1,6 @@
 // 1. *** use your own url copied from Postman ****
 /*let requestURL = "https://api.spoonacular.com/recipes/complexSearch?query=pasta&instructionsRequired=True&addRecipeInformation=True&apiKey=9756a88fa0a145fb93499bc42cf60e7b"*/
 
-/*
 function onXHRLoad() {
     let message = ""
     
@@ -49,7 +48,7 @@ function callAPI(URL) {
     xhttp.setRequestHeader('rankby','distance')
     xhttp.setRequestHeader('type','restaurant')
     */
-/*
+
     // make the API request
     xhttp.addEventListener('load', onXHRLoad)
     xhttp.send()
@@ -70,4 +69,3 @@ btnReturnConfirmation.onclick=function(){
 btnGoHome.onclick=function(){
   ChangeForm(afterLogin)
 }
-*/

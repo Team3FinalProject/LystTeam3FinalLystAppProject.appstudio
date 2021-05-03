@@ -22,5 +22,5 @@ btnWalmartNext.onclick=function(){
 }
 
 btnWalmartReturn.onclick=function(){
-  ChangeForm(map)
+  ChangeForm(tempMap)
 }

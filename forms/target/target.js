@@ -23,5 +23,5 @@ btnTargetNext.onclick=function(){
 }
 
 btnTargetReturn.onclick=function(){
-  ChangeForm(map)
+  ChangeForm(tempMap)
 }

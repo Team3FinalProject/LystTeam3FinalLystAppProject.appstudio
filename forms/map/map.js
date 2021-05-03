@@ -199,13 +199,13 @@ function showPanel(placeResult) {
 
 
 
-// Create two div elements named panel and map
-let panelDiv = document.createElement('div')
-panelDiv.setAttribute('id', 'panel')
+// Create two div elements named sidebar and map
+let sideDiv = document.createElement('div')
+sideDiv.setAttribute('id', 'sidebar')
 
 let mapDiv = document.createElement('div')
 mapDiv.setAttribute('id', 'map')
 
 // Add the panel and map divs to the <body>
-document.body.appendChild(panelDiv)
+document.body.appendChild(sideDiv)
 document.body.appendChild(mapDiv)

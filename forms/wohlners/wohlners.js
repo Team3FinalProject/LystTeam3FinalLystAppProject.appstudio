@@ -22,5 +22,5 @@ btnWohlnersNext.onclick=function(){
 }
 
 btnWohlnersReturn.onclick=function(){
-  ChangeForm(map)
+  ChangeForm(tempMap)
 }

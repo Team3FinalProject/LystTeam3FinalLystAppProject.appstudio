@@ -27,15 +27,24 @@ document.body.appendChild(panelDiv)
 document.body.appendChild(mapDiv)
 
 // Create script element for main JS map functionality
-var mapScript = document.createElement("script");
+let mapScript = document.createElement("script");
 // Add script content
-mapScript.type = "text/javascript"
-mapScript.src = "main.js"
+//mapScript.type = "module"
+//mapScript.src = "main.js"
 // Append
 document.body.appendChild(mapScript);
 
+
+
+// Import main JS module - only for Node.js
+//let main = require("./main");
+// main.main()
+
+
+
+
 // Create script element for API connection
-var apiScript = document.createElement("script");
+let apiScript = document.createElement("script");
 // Add script content
 apiScript.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAUYQCfTMugPMx1OT2BiGQnppgwKIWsI9g&libraries=places&callback=initMap">
 // apiScript.async = true

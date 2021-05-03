@@ -1,5 +1,3 @@
-
-
 // Note: This example requires that you consent to location sharing when
 // prompted by your browser. If you see the error "Geolocation permission
 // denied.", it means you probably did not give permission for the browser * to locate you. */
@@ -189,23 +187,9 @@ function showPanel(placeResult) {
    infoPane.appendChild(websitePara);
  }
  let btn = document.createElement('BUTTON')
- btn.innerHTML = "SEE LYSTS";
- btn.onclick = ChangeForm(target)
+ btn.innerHTML = "SEE LYSTS";   
  infoPane.appendChild(btn)
 
  // Open the infoPane
  infoPane.classList.add("open");
 }
-
-
-
-// Create two div elements named panel and map
-let panelDiv = document.createElement('div')
-panelDiv.setAttribute('id', 'panel')
-
-let mapDiv = document.createElement('div')
-mapDiv.setAttribute('id', 'map')
-
-// Add the panel and map divs to the <body>
-document.body.appendChild(panelDiv)
-document.body.appendChild(mapDiv)

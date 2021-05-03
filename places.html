@@ -363,9 +363,18 @@
       let btn = document.createElement('BUTTON')
       btn.innerHTML = "SEE LYSTS"
       btn.id = "seeLYSTS"
-      // btn.onclick = changeForm()
       infoPane.appendChild(btn)
-
+      
+      // let inpt = "It worked!"
+      // let clicks = 0
+      btn.onclick = function(){
+        // localStorage.setItem("inpt", inpt);
+        history.back()
+        // clicks += 1
+        // if (clicks > 1) {
+        // history.back()
+        // }
+      }; 
       // Open the infoPane
       infoPane.classList.add("open");
     }

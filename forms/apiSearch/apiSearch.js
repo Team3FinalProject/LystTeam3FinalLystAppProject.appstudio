@@ -1,20 +1,19 @@
+var foodType = ""
 // 1. *** use your own url copied from Postman ****
-/*let requestURL = "https://api.spoonacular.com/recipes/complexSearch?query=pasta&instructionsRequired=True&addRecipeInformation=True&apiKey=9756a88fa0a145fb93499bc42cf60e7b"*/
+let requestURL1 =""
 
-/*
 function onXHRLoad() {
     let message = ""
     
     // 'this' is another name for the object returned from the API call
     let apiData = JSON.parse(this.responseText)
-    
+    console.log(apiData.results[0].title)
     for (i = 0; i <= apiData.results.length - 1; i++) {
-        console.log(`${apiData.results[i].title}`)
         message = message + apiData.results[i].title + "\n"
     }
     
     // 2. *** put your textarea control name here ****
-    Textarea11.value = message
+    Textareataco.value = message
     
     // if want to add to database call a function here that does that
     // addToDatabase()
@@ -26,7 +25,7 @@ function callAPI(URL) {
     // if you need cors (you'll get a cors error if you don't have it and you need it)
     // use this code to add the cors code to your url 
     //xhttp.open('GET', 'https://cors.bridged.cc/' + requestURL)
-    
+    //console.log(foodType)
     // if you DON'T need cors use this code:
     xhttp.open('GET',URL)
     
@@ -49,25 +48,22 @@ function callAPI(URL) {
     xhttp.setRequestHeader('rankby','distance')
     xhttp.setRequestHeader('type','restaurant')
     */
-/*
+
     // make the API request
     xhttp.addEventListener('load', onXHRLoad)
     xhttp.send()
 }
 
 // 3. *** add a new button onclick event and put the callAPI code into it ***
-btnClickMe.onclick=function(){
+btnClickMeNow.onclick=function(){
+  foodType = inptRecipe.value
+  requestURL = "https://api.spoonacular.com/recipes/complexSearch?query=" + foodType + "&instructionsRequired=True&addRecipeInformation=True&apiKey=9756a88fa0a145fb93499bc42cf60e7b"
+
     // call the code that will make the API call, then process what comes back
     callAPI(requestURL)
 }
 
-//console.log(results.results[0].glutenFree)
 
-btnReturnConfirmation.onclick=function(){
+btnLetsGo.onclick=function(){
   ChangeForm(recipeConfirmation)
 }
-
-btnGoHome.onclick=function(){
-  ChangeForm(afterLogin)
-}
-*/

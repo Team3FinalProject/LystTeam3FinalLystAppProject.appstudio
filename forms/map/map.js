@@ -29,19 +29,10 @@ document.body.appendChild(mapDiv)
 // Create script element for main JS map functionality
 let mapScript = document.createElement("script");
 // Add script content
-//mapScript.type = "module"
-//mapScript.src = "main.js"
+mapScript.type = "text/javascript"
+mapScript.src = "main.js"
 // Append
 document.body.appendChild(mapScript);
-
-
-
-// Import main JS module - only for Node.js
-//let main = require("./main");
-// main.main()
-
-
-
 
 // Create script element for API connection
 let apiScript = document.createElement("script");

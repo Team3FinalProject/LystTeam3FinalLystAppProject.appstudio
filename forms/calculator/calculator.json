@@ -117,15 +117,6 @@
         "Elements",
         "btnHomeOnThaRange.json"
       ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "calculator",
-        "Elements",
-        "btnPayHere.json"
-      ]
     }
   ],
   "class": "",

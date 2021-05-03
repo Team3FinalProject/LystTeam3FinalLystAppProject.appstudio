@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "",
+  "background": "#FA8072",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "solid",
@@ -62,6 +62,42 @@
         "stripeAPI",
         "Elements",
         "Stripe1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "stripeAPI",
+        "Elements",
+        "btnCalculationAgain.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "stripeAPI",
+        "Elements",
+        "btnMapAttack.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "stripeAPI",
+        "Elements",
+        "Button3.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "stripeAPI",
+        "Elements",
+        "Label22.json"
       ]
     }
   ],
